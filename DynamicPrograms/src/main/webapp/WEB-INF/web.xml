@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  
+  <servlet>
+  <servlet-name>Hello</servlet-name>
+  <servlet-class>BasicPrograms.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Hello</servlet-name>
+  <url-pattern>/HelloJava</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>displayNameServlet</servlet-name>
+  <servlet-class>BasicPrograms.DisplayNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>displayNameServlet</servlet-name>
+  <url-pattern>/displayName</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>addServlet</servlet-name>
+  <servlet-class>BasicPrograms.Add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addServlet</servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>subServlet</servlet-name>
+  <servlet-class>BasicPrograms.subServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>subServlet</servlet-name>
+  <url-pattern>/sub</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>ResultServlet</servlet-name>
+  <servlet-class>BasicPrograms.ResultServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ResultServlet</servlet-name>
+  <url-pattern>/result</url-pattern>
+  </servlet-mapping>
+  </web-app>

@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.homePage{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width: 100%;
+	height: 97vh;
+}
+.container{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction:column;
+	width: 300px;
+	height: 300px;
+	border:1px solid blue;
+	border-radius: 10px;
+	padding:20px;
+}
+h1{
+	color:green;
+}
+a{
+	text-decoration: none;
+	background-color: lime;
+	padding: 10px 20px;
+}
+
